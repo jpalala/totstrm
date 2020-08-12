@@ -1,0 +1,23 @@
+{
+  "name": "totstrm",
+  "version": "0.1.0",
+  "description": "thought stream - tiny twitter-like posts",
+  "main": "src/server.ts",
+  "repository": "git@github.com:jpalala/totstrm.git",
+  "author": "Joe Palala <jose.palala@live.com>",
+  "license": "Unlicense",
+  "private": false,
+  "scripts": {
+    "dev": "ts-node src/server.ts",
+    "start": "ts-node dist/server.js",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "@types/node": "^14.0.27",
+    "express": "^4.17.1",
+    "pug": "^3.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.7"
+  }
+}
